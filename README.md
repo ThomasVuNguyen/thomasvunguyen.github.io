@@ -1,4 +1,4 @@
-# comfySpace
+# Comfy Space
 An application to create customizable interface for Raspberry Pi projects
 
 
