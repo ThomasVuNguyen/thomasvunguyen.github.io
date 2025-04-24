@@ -1,3 +1,25 @@
 Hi, I'm Thomas.
 
 Displayed below are the speed benchmark for luna inference, automatically generated every deployment
+<p>Source commit: 84ce05019eeb6a67650dca120c8f1e0a980c82fb</p>
+<h1>LLAMA Test Results</h1>
+<h2>Prompt Output</h2>
+<pre>
+Prompt Output:
+Hello, how are you? I have been asked to write a short post about my trip to the World of Coca-Cola. I went on Sunday. I went with my good friend, my brother, and my sister.
+The World of Coca-Cola was founded by entrepreneur John Pemberton in 1893. Coca-Cola was first created in 1886 when a chemist, named John Stith Pemberton, made a syrup for an old friend, Dr. D.O. Brown. Dr. Brown was suffering from a heart condition and wanted something to help him relax and feel better.
+So John Pemberton created the formula of Coca-Cola by adding the syrup to carbonated
+
+
+Benchmark Results:
+</pre>
+<h2>Benchmark Results</h2>
+<pre>
+Benchmark Results:
+| model                          |       size |     params | backend    | threads |          test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | ------------: | -------------------: |
+| llama 1B Q8_0                  |   1.22 GiB |     1.24 B | CPU        |       4 |         pp512 |        106.21 ± 0.38 |
+| llama 1B Q8_0                  |   1.22 GiB |     1.24 B | CPU        |       4 |         tg128 |         35.73 ± 0.94 |
+
+build: 84ce050 (1)
+</pre>
